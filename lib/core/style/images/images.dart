@@ -2,6 +2,9 @@ class AppImages {
   //Splash Screen image
   static const String splashImage = "assets/images/splash.png";
 
+  //SignIn SignUp
+
+  static const String googleIcon = "assets/images/google.png";
   //HomePage image
   static const String appBarSearch = "assets/images/search/png";
   static const readIcon = "assets/images/read_icon.png";

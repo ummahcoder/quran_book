@@ -3,5 +3,17 @@
     "get_started" : "Qani Boshladik",
     "en" : "Inglizcha",
     "ru" : "Ruscha",
-    "uz" : "O'zbekcha"
+    "uz" : "O'zbekcha",
+    "signUp" : "Ro'yxatdan o'tish",
+    "detail" : "Iltimos ma'lumotlaringizni kiriting",
+    "name" : "Ismingiz",
+    "enter" : "Ismingizni kiriting",
+    "google" : "Google orqali ro'yhatdan o'tish",
+    "emailEnter" : "Elektron pochtangizni kiriting",
+    "email" : "Elektron pochta",
+    "pass" : "Kamida 8 ta belgidan iborat bo'lsin",
+    "password" : "Parol",
+    "terms" : "Foydalanish shartlari va maxfiylikka roziman",
+    "have" : "Hisobingiz bormi?",
+    "login" : "Tizimga kirish"
 }

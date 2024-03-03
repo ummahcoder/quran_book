@@ -3,5 +3,17 @@
     "get_started" : "Get Started",
     "en" : "English",
     "ru" : "Russian",
-    "uz" : "Uzbek"
+    "uz" : "Uzbek",
+    "signUp" : "Sign Up",
+    "detail" : "Please enter your details",
+    "name" : "Name",
+    "enter" : "Enter your name",
+    "emailEnter" : "Enter your email",
+    "google" : "Sign up with Google",
+    "email" : "Email",
+    "password" : "Password",
+    "pass" : "At least 8 characters",
+    "terms" : "I agree with Terms and Privacy",
+    "have" : "Already have an account?",
+    "login" : "Log in"
 }

@@ -6,4 +6,22 @@ extension MyWords on Words {
 }
 
 // ignore: constant_identifier_names
-enum Words { splash_learn, get_started, en, ru, uz }
+enum Words {
+  splash_learn,
+  get_started,
+  en,
+  ru,
+  uz,
+  signUp,
+  detail,
+  name,
+  enter,
+  email,
+  pass,
+  terms,
+  have,
+  login,
+  emailEnter,
+  password,
+  google
+}

@@ -1,5 +1,6 @@
 import 'package:circle_flags/circle_flags.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:quran_book/core/local/local_controller.dart';
 import 'package:quran_book/core/style/colors.dart';
 import 'package:quran_book/core/style/images/images.dart';
@@ -45,7 +46,9 @@ class SplashScreen extends StatelessWidget {
                 width: 185,
                 height: 60,
                 child: OutlinedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    context.go("/signUp");
+                  },
                   style: OutlinedButton.styleFrom(
                     side: BorderSide.none,
                     backgroundColor: AppColors.c_9b091,
