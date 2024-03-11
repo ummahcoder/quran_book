@@ -23,5 +23,8 @@ enum Words {
   login,
   emailEnter,
   password,
-  google
+  google,
+  loginPage,
+  loginPass,
+  haveAN
 }

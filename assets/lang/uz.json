@@ -15,5 +15,8 @@
     "password" : "Parol",
     "terms" : "Foydalanish shartlari va maxfiylikka roziman",
     "have" : "Hisobingiz bormi?",
-    "login" : "Tizimga kirish"
+    "login" : "Tizimga kirish",
+    "loginPage" : "Tizimga kirish",
+    "loginPass" : "Parolingizni kiriting",
+    "haveAN" : "Sizda hisob yo'qmi?"
 }

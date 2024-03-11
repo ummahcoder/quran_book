@@ -15,5 +15,10 @@
     "pass" : "At least 8 characters",
     "terms" : "I agree with Terms and Privacy",
     "have" : "Already have an account?",
-    "login" : "Log in"
+    "login" : "Log in",
+    "loginPage" : "Log In",
+    "loginPass" : "Enter you password",
+    "haveAN" : "Don't you have an account?"
+
+
 }
