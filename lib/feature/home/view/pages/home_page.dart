@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quran_book/core/style/colors.dart';
 import 'package:quran_book/core/style/images/images.dart';
-import 'package:quran/quran.dart' as quran;
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
