@@ -6,7 +6,7 @@ import 'package:quran_book/feature/home/view/pages/home_page.dart';
 import 'package:quran_book/feature/splash/splash_screen.dart';
 
 class AppGouter {
-  static GoRouter routeConfig = GoRouter(initialLocation: "/", routes: [
+  static GoRouter routeConfig = GoRouter(initialLocation: "/homePage", routes: [
     GoRoute(
         path: "/",
         name: "splash-screen",

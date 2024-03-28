@@ -135,10 +135,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_riverpod
-      sha256: "4bce556b7ecbfea26109638d5237684538d4abc509d253e6c5c4c5733b360098"
+      sha256: "0f1974eff5bbe774bf1d870e406fc6f29e3d6f1c46bd9c58e7172ff68a785d7d"
       url: "https://pub.dev"
     source: hosted
-    version: "2.4.10"
+    version: "2.5.1"
   flutter_svg:
     dependency: transitive
     description:
@@ -261,6 +261,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.11.0"
+  nested:
+    dependency: transitive
+    description:
+      name: nested
+      sha256: "03bac4c528c64c95c722ec99280375a6f2fc708eec17c7b3f07253b626cd2a20"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   path:
     dependency: transitive
     description:
@@ -357,14 +365,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.8"
-  riverpod:
-    dependency: transitive
+  provider:
+    dependency: "direct main"
     description:
-      name: riverpod
-      sha256: "548e2192eb7aeb826eb89387f814edb76594f3363e2c0bb99dd733d795ba3589"
+      name: provider
+      sha256: c8a055ee5ce3fd98d6fc872478b03823ffdb448699c6ebdbbc71d59b596fd48c
       url: "https://pub.dev"
     source: hosted
-    version: "2.5.0"
+    version: "6.1.2"
+  quran:
+    dependency: "direct main"
+    description:
+      name: quran
+      sha256: ec215df985bede594ce863dc23cc0238aabdaf193bed7c04fd25ae627f3a5941
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.5"
+  riverpod:
+    dependency: "direct main"
+    description:
+      name: riverpod
+      sha256: f21b32ffd26a36555e501b04f4a5dca43ed59e16343f1a30c13632b2351dfa4d
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.5.1"
   shared_preferences:
     dependency: transitive
     description:
