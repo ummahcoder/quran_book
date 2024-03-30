@@ -3,10 +3,11 @@ import 'package:quran_book/feature/auth/view/pages/login_page.dart';
 import 'package:quran_book/feature/auth/view/pages/sign_up.dart';
 import 'package:quran_book/feature/auth/view/pages/verify_code.dart';
 import 'package:quran_book/feature/home/view/pages/home_page.dart';
+import 'package:quran_book/feature/home/view/pages/surah_view.dart';
 import 'package:quran_book/feature/splash/splash_screen.dart';
 
 class AppGouter {
-  static GoRouter routeConfig = GoRouter(initialLocation: "/homePage", routes: [
+  static GoRouter routeConfig = GoRouter(initialLocation: "/", routes: [
     GoRoute(
         path: "/",
         name: "splash-screen",
@@ -27,5 +28,9 @@ class AppGouter {
         path: "/verifyCode",
         name: "verify-code",
         builder: ((context, state) => const VerifyCode())),
+    // GoRoute(
+    //     path: "/surah_view",
+    //     name: "surahView",
+    //     builder: ((context, state) => const SurahView())),
   ]);
 }
