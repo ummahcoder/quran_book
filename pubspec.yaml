@@ -45,6 +45,8 @@ dependencies:
   quran: ^1.2.5
   provider: ^6.1.2
   riverpod: ^2.5.1
+  lottie: ^3.1.0
+  simple_circular_progress_bar: ^1.0.2
 
 dev_dependencies:
   flutter_test:
@@ -72,6 +74,7 @@ flutter:
   assets:
     - assets/images/masjid.jpg
     - assets/images/
+    - assets/icons/
     - assets/images/splash_new.png
     - assets/lang/
   

@@ -19,6 +19,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage>
     with SingleTickerProviderStateMixin {
   late TabController _tabController;
+  int _currentIndex = 0;
 
   @override
   void initState() {
@@ -37,9 +38,17 @@ class _HomePageState extends State<HomePage>
               padding: const EdgeInsets.all(20.0),
               child: Row(
                 children: [
-                  Image.asset(
-                    AppImages.appbarMenu,
-                    scale: 3,
+                  Builder(
+                    builder: (context) {
+                      return IconButton(
+                          onPressed: () {
+                            Scaffold.of(context).openDrawer();
+                          },
+                          icon: Image.asset(
+                            AppImages.appbarMenu,
+                            scale: 3,
+                          ));
+                    },
                   ),
                   const SizedBox(
                     width: 23,
@@ -201,6 +210,7 @@ class _HomePageState extends State<HomePage>
             ),
           ),
           bottomNavigationBar: BottomNavigationBar(
+            currentIndex: _currentIndex,
             items: [
               BottomNavigationBarItem(
                   icon: Image.asset(
@@ -226,17 +236,16 @@ class _HomePageState extends State<HomePage>
                   ),
                   label: ""),
               BottomNavigationBarItem(
-                  icon: Image.asset(
-                    AppImages.dua,
-                    scale: 4,
+                  icon: GestureDetector(
+                    onTap: () {
+                      context.goNamed("zikrPage");
+                    },
+                    child: Image.asset(
+                      AppImages.dua,
+                      scale: 4,
+                    ),
                   ),
                   label: ""),
-              BottomNavigationBarItem(
-                  icon: Image.asset(
-                    AppImages.save,
-                    scale: 4,
-                  ),
-                  label: "")
             ],
           ),
         ));
