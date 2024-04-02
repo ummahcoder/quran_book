@@ -215,9 +215,14 @@ class _HomePageState extends State<HomePage>
                   ),
                   label: ""),
               BottomNavigationBarItem(
-                  icon: Image.asset(
-                    AppImages.prayer,
-                    scale: 4,
+                  icon: GestureDetector(
+                    onTap: () {
+                      context.goNamed("showSalahTime");
+                    },
+                    child: Image.asset(
+                      AppImages.prayer,
+                      scale: 4,
+                    ),
                   ),
                   label: ""),
               BottomNavigationBarItem(

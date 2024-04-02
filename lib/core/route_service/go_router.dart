@@ -6,6 +6,8 @@ import 'package:quran_book/feature/home/view/pages/home_page.dart';
 import 'package:quran_book/feature/home/view/pages/surah_view.dart';
 import 'package:quran_book/feature/splash/splash_screen.dart';
 
+import '../../feature/salah/show_salah_time.dart';
+
 class AppGouter {
   static GoRouter routeConfig = GoRouter(initialLocation: "/", routes: [
     GoRoute(
@@ -24,10 +26,15 @@ class AppGouter {
         path: "/homePage",
         name: "homePage",
         builder: ((context, state) => const HomePage())),
+
     GoRoute(
         path: "/verifyCode",
         name: "verify-code",
         builder: ((context, state) => const VerifyCode())),
+    GoRoute(
+        path: "/showSalahTime",
+        name: "showSalahTime",
+        builder: ((context, state) => const ShowSalahTime())),
     // GoRoute(
     //     path: "/surah_view",
     //     name: "surahView",
