@@ -47,10 +47,12 @@ dependencies:
   riverpod: ^2.5.1
   lottie: ^3.1.0
   simple_circular_progress_bar: ^1.0.2
+  audioplayers: ^6.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+    
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

@@ -1,8 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:simple_circular_progress_bar/simple_circular_progress_bar.dart';
-
 import '../../../core/style/colors.dart';
 
 class ZikrPage extends StatelessWidget {
@@ -37,10 +33,10 @@ class ZikrPage extends StatelessWidget {
                   children: [
                     Image.asset(
                       "assets/images/quddus.png",
-                      scale: 3.4,
+                      scale: 3.8,
                     ),
                     const Positioned(
-                      top: 80,
+                      top: 60,
                       left: 16,
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -65,18 +61,18 @@ class ZikrPage extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(
-                  width: 17,
+                  width: 20,
                 ),
                 Stack(
                   children: [
                     Expanded(
                       child: Image.asset(
                         "assets/images/tuyacha.png",
-                        scale: 3.4,
+                        scale: 3.8,
                       ),
                     ),
                     const Positioned(
-                      top: 80,
+                      top: 60,
                       left: 16,
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -113,11 +109,11 @@ class ZikrPage extends StatelessWidget {
                     Expanded(
                       child: Image.asset(
                         "assets/images/istanbul.png",
-                        scale: 3.4,
+                        scale: 3.7,
                       ),
                     ),
                     const Positioned(
-                      top: 70,
+                      top: 60,
                       left: 16,
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -130,7 +126,7 @@ class ZikrPage extends StatelessWidget {
                                 fontWeight: FontWeight.bold),
                           ),
                           Text(
-                            "11 zikr",
+                            "11 azkar",
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 12,
@@ -146,11 +142,11 @@ class ZikrPage extends StatelessWidget {
                     Expanded(
                       child: Image.asset(
                         "assets/images/night.png",
-                        scale: 3.4,
+                        scale: 3.7,
                       ),
                     ),
                     const Positioned(
-                      top: 70,
+                      top: 60,
                       left: 16,
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,

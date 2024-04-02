@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
-
 import '../../core/services/get_salah_data.dart';
-import '../../core/style/images/images.dart';
 import '../../data/entity/salah_time_model.dart';
 import 'package:lottie/lottie.dart';
 
