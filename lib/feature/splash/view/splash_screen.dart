@@ -5,7 +5,7 @@ import 'package:quran_book/core/local/local_controller.dart';
 import 'package:quran_book/core/style/colors.dart';
 import 'package:quran_book/core/style/images/images.dart';
 
-import '../../core/local/words.dart';
+import '../../../core/local/words.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
@@ -83,7 +83,8 @@ class SplashScreen extends StatelessWidget {
                           },
                           child: Text(
                             Words.en.tr(context),
-                            style: TextStyle(color: AppColors.c_240F4F),
+                            style: TextStyle(
+                                color: AppColors.c_240F4F, fontSize: 10),
                           ))
                     ],
                   ),
@@ -99,7 +100,8 @@ class SplashScreen extends StatelessWidget {
                           },
                           child: Text(
                             Words.ru.tr(context),
-                            style: TextStyle(color: AppColors.c_240F4F),
+                            style: TextStyle(
+                                color: AppColors.c_240F4F, fontSize: 10),
                           ))
                     ],
                   ),
@@ -117,7 +119,8 @@ class SplashScreen extends StatelessWidget {
                           },
                           child: Text(
                             Words.uz.tr(context),
-                            style: TextStyle(color: AppColors.c_240F4F),
+                            style: TextStyle(
+                                color: AppColors.c_240F4F, fontSize: 10),
                           ))
                     ],
                   )

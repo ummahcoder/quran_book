@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quran_book/feature/home/zikr/barcha_zikrlar.dart';
 import '../../../core/style/colors.dart';
 
 class ZikrPage extends StatelessWidget {
@@ -23,21 +24,32 @@ class ZikrPage extends StatelessWidget {
             )),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(10.0),
+        padding: const EdgeInsets.all(12.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Stack(
                   children: [
-                    Image.asset(
-                      "assets/images/quddus.png",
-                      scale: 3.8,
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const BarchaZikrlar()));
+                      },
+                      child: Expanded(
+                        child: Image.asset(
+                          "assets/images/quddus.png",
+                          scale: 4,
+                        ),
+                      ),
                     ),
                     const Positioned(
                       top: 60,
-                      left: 16,
+                      left: 20,
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -60,20 +72,17 @@ class ZikrPage extends StatelessWidget {
                     )
                   ],
                 ),
-                const SizedBox(
-                  width: 20,
-                ),
                 Stack(
                   children: [
                     Expanded(
                       child: Image.asset(
                         "assets/images/tuyacha.png",
-                        scale: 3.8,
+                        scale: 4,
                       ),
                     ),
                     const Positioned(
                       top: 60,
-                      left: 16,
+                      left: 20,
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -102,19 +111,19 @@ class ZikrPage extends StatelessWidget {
               height: 20,
             ),
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Stack(
                   children: [
                     Expanded(
                       child: Image.asset(
                         "assets/images/istanbul.png",
-                        scale: 3.7,
+                        scale: 4,
                       ),
                     ),
                     const Positioned(
                       top: 60,
-                      left: 16,
+                      left: 20,
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -142,12 +151,12 @@ class ZikrPage extends StatelessWidget {
                     Expanded(
                       child: Image.asset(
                         "assets/images/night.png",
-                        scale: 3.7,
+                        scale: 4,
                       ),
                     ),
                     const Positioned(
                       top: 60,
-                      left: 16,
+                      left: 20,
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [

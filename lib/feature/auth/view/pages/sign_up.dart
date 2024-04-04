@@ -183,11 +183,6 @@ class _SignUpState extends State<SignUp> {
                       height: 3,
                       color: const Color(0xFFD1CFCF),
                     ),
-                    Container(
-                      width: 90,
-                      height: 3,
-                      color: const Color(0xFFD1CFCF),
-                    )
                   ],
                 ),
                 const SizedBox(

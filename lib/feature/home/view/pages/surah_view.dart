@@ -158,7 +158,7 @@ class SurahView extends StatelessWidget {
                                 fontSize: 26,
                                 fontWeight: FontWeight.bold,
                                 color: AppColors.c_240F4F,
-                                fontFamily: GoogleFonts.amiriQuran().fontFamily,
+                                fontFamily: GoogleFonts.amiri().fontFamily,
                               ),
                             ),
                           ),

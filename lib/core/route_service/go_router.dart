@@ -6,7 +6,7 @@ import 'package:quran_book/feature/home/view/pages/home_page.dart';
 import 'package:quran_book/feature/home/view/pages/surah_view.dart';
 import 'package:quran_book/feature/home/zikr/zikr_page.dart';
 import 'package:quran_book/feature/salah/salah_new_design.dart';
-import 'package:quran_book/feature/splash/splash_screen.dart';
+import 'package:quran_book/feature/splash/view/splash_screen.dart';
 
 class AppGouter {
   static GoRouter routeConfig = GoRouter(initialLocation: "/", routes: [

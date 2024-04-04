@@ -75,6 +75,7 @@ class _HomePageState extends State<HomePage>
             ],
           ),
           body: SingleChildScrollView(
+            physics: ScrollPhysics(),
             child: Padding(
               padding: const EdgeInsets.all(24.0),
               child: Column(
@@ -115,6 +116,7 @@ class _HomePageState extends State<HomePage>
                     SizedBox(
                       height: 550,
                       child: ListView.builder(
+                        shrinkWrap: true,
                         scrollDirection: Axis.vertical,
                         itemCount: 114,
                         itemBuilder: (context, index) {

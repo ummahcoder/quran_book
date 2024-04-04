@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:quran_book/core/style/colors.dart';
-import 'package:quran_book/core/style/images/images.dart';
 
 import '../../../../core/local/words.dart';
 import '../widgets/textfields_w.dart';

@@ -38,6 +38,7 @@ class MyApp extends StatelessWidget {
           routerConfig: AppGouter.routeConfig,
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
+            visualDensity: VisualDensity.adaptivePlatformDensity,
             textTheme: GoogleFonts.poppinsTextTheme(),
           ),
         );
