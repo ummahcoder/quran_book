@@ -38,3 +38,17 @@ List<String> zikrNames = [
   "Taroveh tasbehi",
   "Takbir tashriq"
 ];
+
+List<String> tongiZikrlar = [
+  "Sayyidul Istig'for",
+  "Tonggi zikr",
+  "Subhanallohi\n va bihamdihi",
+  "Ixlos surasi",
+  "Falaq Surasi",
+  "Naas Surasi",
+  "Allohumma inniy\nas'alukal 'afiyata",
+  "Tongi zikr 2",
+  "Allohumma 'aalimal-g'oybi",
+  "Bismillahillazii\nlaa yazurru",
+  "Laa ilaaha illalloh,\nvahdahu lass shariyka lah",
+];

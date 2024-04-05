@@ -47,7 +47,7 @@ class SplashScreen extends StatelessWidget {
                 height: 60,
                 child: OutlinedButton(
                   onPressed: () {
-                    context.go("/signUp");
+                    context.go("/homePage");
                   },
                   style: OutlinedButton.styleFrom(
                     side: BorderSide.none,

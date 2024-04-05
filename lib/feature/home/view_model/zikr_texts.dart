@@ -11,14 +11,14 @@ Map<String, String> zikrs = {
   "Alhamdulillah": "Barcha hamd va shukr Allohgadir",
   "Allohu Akar": "Alloh buyukdir!",
   "Subhaanallohi va bihamdihii, subhaanallohil-'azim":
-      "Allohim! Unga hamd aytgan holimda\nbarcha nuqsondan pok deb yod etaman!\nBuyuk Allohdam barcha aybu nuqsondan\npok deb yod etaman!",
+      "Allohim! Unga hamd aytgan holimda\nbarcha nuqsondan pok deb yod etaman!\nBuyuk Allohdan barcha aybu nuqsondan\npok deb yod etaman!",
   "Ya muqollbal qulub, sabbit\nqulubuna 'ala diynik":
       "Ey dillarni o'zgartiruvchi Zot, bizning\ndillarimizni o'z diningda sobit qilgin!",
   "Astag'firullohal 'aziym allazii laa\nilahan illa huval-hayyul qoyyum va\natubu ilayhi":
       "Aziym Allohga, Undan o'zga ibodatga\nsazovor zot bo'lmagan, tirik va o'ta qoim\nbo'lgan Allohga istig'for aytaman va unga tavba qilaman",
   "Allohumma, anta Robbii, laa ilaaha anta, xolaqtanii, v..":
       "Allohim! Robbim O'zingsan. Sendan\n o'zga iloh yo'q, Meni Sen yaratgansan va\nmen Sening qulingman. Men qurbim\nyetganicha Sening ahdu paymoning va\nva'dangda turibman. Qilmishlarimning\nyomonligidan O'zingning panohingga\nqochaman. Menga bergan ne'matlaringni\nham tan olaman, gunohlarimni ham tan\nolaman. Meni mag'firat qilgin, chunki\nSengina gunohlarni mag'firat qilasan",
-  "Asbahana va asbahal mulku lillah, valhamdu lillaah, laa ilaaha illallohu valhamdu lillaah, laa ilaaha illallohu vahdahu laa shariyka lah. Lahul mulku va lahul hamdu va huva 'aala kulli shay-in qodiyr. Robbi, as-aluka xoyro maa fii haazihil-laylati va oyro maa ba'daaha, va a'uuzu bika min sharri maa fii haazihil-laylati va sharri maa fii haazihil-laylati va sharri maa ba'dahaa. Robbi, auuzu bika minal kasali va suu-il kibar. Robbi, auuzu bika min 'azaabin fin-naari va 'azaabin fil qobr":
+  "Asbahna va asbahal mulku lillah, valhamdu lillaah, laa ilaaha illallohu valhamdu lillaah, laa ilaaha illallohu vahdahu laa shariyka lah. Lahul mulku va lahul hamdu va huva 'aala kulli shay-in qodiyr. Robbi, as-aluka xoyro maa fii haazihil-laylati va oyro maa ba'daaha, va a'uuzu bika min sharri maa fii haazihil-laylati va sharri maa fii haazihil-laylati va sharri maa ba'dahaa. Robbi, auuzu bika minal kasali va suu-il kibar. Robbi, auuzu bika min 'azaabin fin-naari va 'azaabin fil qobr":
       "Biz ham, borliqning mulki ham Allohniki\nbo'lib tong ottirdik. Allohga hamd\nbo'lsin, yolg'iz Allohdan o'zga iloh yo'q\nUning sherigi yo'q. Mulk ham, hamd ham\nUnikidir, u Zot har narsaga qodirdir. Robbim, Sendan bu tunning yaxshiligini\nso'rayman, va bu tunning yomonligidan va undan keyingi yomonliklaridan ham panoh so'rayman.\n Robbim, Sendan dangasalik va yomon\nqarishdan panoh so'rayman. Robbim,\nSendan do'zax azobidan va qabr azobidan panoh so'rayman",
   "Amsaynaa va amsal mulku lillaah. valhamdu lillaah, laa ilaah...":
       "Biz ham, borliqning mulki ham Allohniki\nbo'lib tong ottirdik. Allohga hamd\nbo'lsin, yolg'iz Allohdan o'zga iloh yo'q\nUning sherigi yo'q. Mulk ham, hamd ham\nUnikidir, u Zot har nasraga qodirdir. Robbim, Sendan bu tunning yaxshiligini\nso'rayman, va bu tunning yomonligidan va undan keyingi yomonliklaridan ham panoh so'rayman.\n Robbim, Sendan dangasalik va yomon\nqarishdan panoh so'rayman. Robbim,\nSendan do'zax azobidan va qabr azobidan panoh so'rayman",
@@ -29,7 +29,7 @@ Map<String, String> zikrs = {
   "Qul' 'auuzu birobbil'-falaq. Min sharri maa xolaq. Va min sharri g'oosiqin izaa vaqob. Va min sharri haasidin izaa hasad":
       "'Tong Robbisidan panoh so'rayman. U yaratgan narsalar yomonligidan. Va kirib kelgan qorong'u kechaning yomonligidan. Va tugunlarga dam soluvchilar yomonligidan. Va hasad qilgan hasadchining yomonligidan' deb ayt.",
   "Qul 'auuzu birobbin naas. Malikin naas. Ilaahin naas. Min sharril vas vaasil xonnas. Allazii yuvasvisu fii suduurin naas. Minal jinnati van naas.":
-      "'Odamlar Robbisidan... Odamlar podshohida... Odamlar Ilohidan panoh so'rayman... Berkinib, ko'rinib turuvchi vasvasachining... Odamlar qalblariga vasvasa soladiganning... Jinlar va odamlardan bo'lganning yomonligidan' deb ayt.",
+      "'Odamlar Robbisidan... Odamlar podshohidan... Odamlar Ilohidan panoh so'rayman... Berkinib, ko'rinib turuvchi vasvasachining... Odamlar qalblariga vasvasa soladiganning... Jinlar va odamlardan bo'lganning yomonligidan' deb ayt.",
   "Allohumma inniy as'alukal 'afiyata fiddunyda vaal aaxiroh. Allohumma inniy as'alukal 'afva val 'afiyata fiy diyniy va dunyaya va ahliy va maaliy. Allohummastur 'avrootiy va aamin rav'atiy. Allohummahfazniy min bayni yadayya va min xolfiy va 'an yamiyniy va 'an shimaaliy va min favqiy va a'uzu bi'azomatika an ug'taala min tahtiy":
       "Allohim, men Sendan dunyo va oxiratda ofiyat so'rayman. Ey Rabbim, dinimda va dunyoimda, ahlimda va molimda avf va ofiyat so'rayman. Ey Rabbim, avratimni bekit, xavflarimni omonlikka aylantir. Ey Allohim, meni oldimdan, orqamdan, o'ng tomonimdan, chap tomonimdan, ustimdan saqlagin. Ey Rabbim, ostimdan halok qilishingdan Sening azamating ila panoh tilayman",
   "Allohumma bika asbahnaa va bika amsaynaa va bika nahya va bika namutu va ilaykan nushur":
@@ -38,7 +38,7 @@ Map<String, String> zikrs = {
       "Allohim! Sen ila kech kiritdik. Sen ila kechga kiramiz. Sen ila hayot kechiramiz va Sen ila o'lamiz va Sengagina yig'ilamiz",
   "Allohumma 'aalimal-g'oybi vash-shahadati faatiras-samavati val ard, robba kullash shayin va maliikah, ashhadu alla ilaha illaa ant, a'uuzu bika min sharri nafsin va min sharrish-shaytooni va shirkax":
       "",
-  "Bismillahillazi la yadurru ma'asmihi shay'un fi-l-arzi va la fi-s-samai va huva-s-sami'u-l-'alim":
+  "Bismillahillazii la yadurru ma'asmihi shay'un fi-l-arzi va la fi-s-samai va huva-s-sami'u-l-'alim":
       "Ismi birga bo'lgandan hech narsa zarar qilmaydigan Allohning nomi ila. U Zot o'ta eshituvchi va o'ta ko'ruvchidir",
   "La ilaha illallohu vahdahu la shariyka lah, lahul-mulku va lahul hamd va huva ‘ala kulli shay’in qodiyr.":
       "Allohdan boshqa iloh yo‘q. Uning tengi va sherigi yo‘q. Mulk Unikidir. Hamd Ungadir. U har narsaga qodirdir.",
@@ -71,3 +71,30 @@ Map<String, String> zikrs = {
   "Allohu Akbar! Allohu Akbar! Laa ilaha illallohu! Vallohu akbar! Allohu akbar! Va lillahil hamd":
       "Alloh buyukdir, Alloh buyukdir, Allohdan o'zga iloh yo'qdir. Alloh buyukdir, Alloh buyukdir, barcha maqtovlar U Zotga xosdir!"
 };
+
+Map<String, String> tongiZikr = {
+  "Allohumma, anta Robbii, laa ilaaha anta, xolaqtanii, v..":
+      "Allohim! Robbim O'zingsan. Sendan\n o'zga iloh yo'q, Meni Sen yaratgansan va\nmen Sening qulingman. Men qurbim\nyetganicha Sening ahdu paymoning va\nva'dangda turibman. Qilmishlarimning\nyomonligidan O'zingning panohingga\nqochaman. Menga bergan ne'matlaringni\nham tan olaman, gunohlarimni ham tan\nolaman. Meni mag'firat qilgin, chunki\nSengina gunohlarni mag'firat qilasan",
+  "Asbahna va asbahal mulku lillah, valhamdu lillaah, laa ilaaha illallohu valhamdu lillaah, laa ilaaha illallohu vahdahu laa shariyka lah. Lahul mulku va lahul hamdu va huva 'aala kulli shay-in qodiyr. Robbi, as-aluka xoyro maa fii haazihil-laylati va oyro maa ba'daaha, va a'uuzu bika min sharri maa fii haazihil-laylati va sharri maa fii haazihil-laylati va sharri maa ba'dahaa. Robbi, auuzu bika minal kasali va suu-il kibar. Robbi, auuzu bika min 'azaabin fin-naari va 'azaabin fil qobr":
+      "Biz ham, borliqning mulki ham Allohniki\nbo'lib tong ottirdik. Allohga hamd\nbo'lsin, yolg'iz Allohdan o'zga iloh yo'q\nUning sherigi yo'q. Mulk ham, hamd ham\nUnikidir, u Zot har narsaga qodirdir. Robbim, Sendan bu tunning yaxshiligini\nso'rayman, va bu tunning yomonligidan va undan keyingi yomonliklaridan ham panoh so'rayman.\n Robbim, Sendan dangasalik va yomon\nqarishdan panoh so'rayman. Robbim,\nSendan do'zax azobidan va qabr azobidan panoh so'rayman",
+  "Subhaanallohi va bihamdihii, subhaanallohil-'azim":
+      "Allohim! Unga hamd aytgan holimda\nbarcha nuqsondan pok deb yod etaman!\nBuyuk Allohdan barcha aybu nuqsondan\npok deb yod etaman!",
+  "Qul huvallohu ahad. Allohus-somad. Lam yalid va lam yulad. Va lam yakullahu kufuvan ahad.":
+      "Ayt: 'U Alloh yagonadir. Alloh - somaddir. U tug'magan va tug'ilmagan. Va Unga hech kim teng bo'lmagan'",
+  "Qul' 'auuzu birobbil'-falaq. Min sharri maa xolaq. Va min sharri g'oosiqin izaa vaqob. Va min sharri haasidin izaa hasad":
+      "'Tong Robbisidan panoh so'rayman. U yaratgan narsalar yomonligidan. Va kirib kelgan qorong'u kechaning yomonligidan. Va tugunlarga dam soluvchilar yomonligidan. Va hasad qilgan hasadchining yomonligidan' deb ayt.",
+  "Qul 'auuzu birobbin naas. Malikin naas. Ilaahin naas. Min sharril vas vaasil xonnas. Allazii yuvasvisu fii suduurin naas. Minal jinnati van naas.":
+      "'Odamlar Robbisidan... Odamlar podshohidan... Odamlar Ilohidan panoh so'rayman... Berkinib, ko'rinib turuvchi vasvasachining... Odamlar qalblariga vasvasa soladiganning... Jinlar va odamlardan bo'lganning yomonligidan' deb ayt.",
+  "Allohumma inniy as'alukal 'afiyata fiddunyda vaal aaxiroh. Allohumma inniy as'alukal 'afva val 'afiyata fiy diyniy va dunyaya va ahliy va maaliy. Allohummastur 'avrootiy va aamin rav'atiy. Allohummahfazniy min bayni yadayya va min xolfiy va 'an yamiyniy va 'an shimaaliy va min favqiy va a'uzu bi'azomatika an ug'taala min tahtiy":
+      "Allohim, men Sendan dunyo va oxiratda ofiyat so'rayman. Ey Rabbim, dinimda va dunyoimda, ahlimda va molimda avf va ofiyat so'rayman. Ey Rabbim, avratimni bekit, xavflarimni omonlikka aylantir. Ey Allohim, meni oldimdan, orqamdan, o'ng tomonimdan, chap tomonimdan, ustimdan saqlagin. Ey Rabbim, ostimdan halok qilishingdan Sening azamating ila panoh tilayman",
+  "Allohumma bika asbahnaa va bika amsaynaa va bika nahya va bika namutu va ilaykan nushur":
+      "Allohim! Sen ila tong ottirdik. Sen ila kechga kiramiz. Sen ila hayot kechiramiz va Sen ila o'lamiz va Sengagina yig'ilamiz",
+  "Allohumma 'aalimal-g'oybi vash-shahadati faatiras-samavati val ard, robba kullash shayin va maliikah, ashhadu alla ilaha illaa ant, a'uuzu bika min sharri nafsin va min sharrish-shaytooni va shirkax":
+      "",
+  "Bismillahillazii la yadurru ma'asmihi shay'un fi-l-arzi va la fi-s-samai va huva-s-sami'u-l-'alim":
+      "Ismi birga bo'lgandan hech narsa zarar qilmaydigan Allohning nomi ila. U Zot o'ta eshituvchi va o'ta ko'ruvchidir",
+  "La ilaha illallohu vahdahu la shariyka lah, lahul-mulku va lahul hamd va huva ‘ala kulli shay’in qodiyr.":
+      "Allohdan boshqa iloh yo‘q. Uning tengi va sherigi yo‘q. Mulk Unikidir. Hamd Ungadir. U har narsaga qodirdir.",
+};
+
+Map<String, String> tungiZikr = {"": " "};

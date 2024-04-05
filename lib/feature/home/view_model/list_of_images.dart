@@ -39,3 +39,17 @@ List<String> randomPics = [
   "assets/images/random_pic/onsakkiz.JPG",
   "assets/images/random_pic/otttiz_s.JPG"
 ];
+
+List<String> tongImages = [
+  "assets/images/tong_bir.JPG",
+  "assets/images/tong_ikki.JPG",
+  "assets/images/tong_uch.JPG",
+  "assets/images/tong_tort.JPG",
+  "assets/images/tong_besh.JPG",
+  "assets/images/tong_olti.JPG",
+  "assets/images/tong_yetti.JPG",
+  "assets/images/tong_sakkiz.JPG",
+  "assets/images/tong_toqqiz.JPG",
+  "assets/images/tong_on.JPG",
+  "assets/images/tong_onbir.JPG"
+];

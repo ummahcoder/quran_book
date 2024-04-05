@@ -4,9 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:quran_book/core/local/local_controller.dart';
 import 'package:quran_book/core/route_service/go_router.dart';
 import 'package:quran_book/core/services/inherited_local_notifer.dart';
-// ignore: depend_on_referenced_packages
 import 'package:flutter_localizations/flutter_localizations.dart';
-
 import 'core/local/app_local.dart';
 
 void main() {

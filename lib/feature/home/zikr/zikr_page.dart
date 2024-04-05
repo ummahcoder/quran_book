@@ -1,5 +1,8 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:quran_book/feature/home/zikr/barcha_zikrlar.dart';
+import 'package:quran_book/feature/home/zikr/tongi_zikrlar.dart';
 import '../../../core/style/colors.dart';
 
 class ZikrPage extends StatelessWidget {
@@ -36,9 +39,11 @@ class ZikrPage extends StatelessWidget {
                     GestureDetector(
                       onTap: () {
                         Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => const BarchaZikrlar()));
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const BarchaZikrlar(),
+                          ),
+                        );
                       },
                       child: Expanded(
                         child: Image.asset(
@@ -75,9 +80,11 @@ class ZikrPage extends StatelessWidget {
                 Stack(
                   children: [
                     Expanded(
-                      child: Image.asset(
-                        "assets/images/tuyacha.png",
-                        scale: 4,
+                      child: GestureDetector(
+                        child: Image.asset(
+                          "assets/images/tuyacha.png",
+                          scale: 4,
+                        ),
                       ),
                     ),
                     const Positioned(
@@ -115,10 +122,20 @@ class ZikrPage extends StatelessWidget {
               children: [
                 Stack(
                   children: [
-                    Expanded(
-                      child: Image.asset(
-                        "assets/images/istanbul.png",
-                        scale: 4,
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const TongiZikrlar(),
+                          ),
+                        );
+                      },
+                      child: Expanded(
+                        child: Image.asset(
+                          "assets/images/istanbul.png",
+                          scale: 4,
+                        ),
                       ),
                     ),
                     const Positioned(

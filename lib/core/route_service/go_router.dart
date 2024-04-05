@@ -3,7 +3,8 @@ import 'package:quran_book/feature/auth/view/pages/login_page.dart';
 import 'package:quran_book/feature/auth/view/pages/sign_up.dart';
 import 'package:quran_book/feature/auth/view/pages/verify_code.dart';
 import 'package:quran_book/feature/home/view/pages/home_page.dart';
-import 'package:quran_book/feature/home/view/pages/surah_view.dart';
+import 'package:quran_book/feature/home/zikr/barcha_zikrlar.dart';
+import 'package:quran_book/feature/home/zikr/tongi_zikrlar.dart';
 import 'package:quran_book/feature/home/zikr/zikr_page.dart';
 import 'package:quran_book/feature/salah/salah_new_design.dart';
 import 'package:quran_book/feature/splash/view/splash_screen.dart';
@@ -34,20 +35,25 @@ class AppGouter {
             builder: ((context, state) => const SalahNew()),
           ),
           GoRoute(
-            path: "zikr",
-            name: "zikrPage",
-            builder: ((context, state) => const ZikrPage()),
-          ),
+              path: "zikr",
+              name: "zikrPage",
+              builder: ((context, state) => const ZikrPage()),
+              routes: [
+                GoRoute(
+                  path: "barchaZikr",
+                  name: "barchaZikr",
+                  builder: ((context, state) => const BarchaZikrlar()),
+                ),
+                GoRoute(
+                  path: "tongiZikr",
+                  name: "tongiZikr",
+                  builder: ((context, state) => const TongiZikrlar()),
+                ),
+              ]),
         ]),
-
     GoRoute(
         path: "/verifyCode",
         name: "verify-code",
         builder: ((context, state) => const VerifyCode())),
-
-    // GoRoute(
-    //     path: "/surah_view",
-    //     name: "surahView",
-    //     builder: ((context, state) => const SurahView())),
   ]);
 }

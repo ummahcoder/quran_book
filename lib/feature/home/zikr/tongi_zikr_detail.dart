@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:lottie/lottie.dart';
 
-class ZikrDetailsScreen extends StatefulWidget {
+class TongiZikrDetailsScreen extends StatefulWidget {
   final String zikrName;
   final String zikrKey;
   final String zikrValue;
   final String imagePath;
 
-  const ZikrDetailsScreen({
+  const TongiZikrDetailsScreen({
     super.key,
     required this.zikrName,
     required this.zikrKey,
@@ -19,10 +19,10 @@ class ZikrDetailsScreen extends StatefulWidget {
 
   @override
   // ignore: library_private_types_in_public_api
-  _ZikrDetailsScreenState createState() => _ZikrDetailsScreenState();
+  _TongiZikrDetailsScreenState createState() => _TongiZikrDetailsScreenState();
 }
 
-class _ZikrDetailsScreenState extends State<ZikrDetailsScreen> {
+class _TongiZikrDetailsScreenState extends State<TongiZikrDetailsScreen> {
   int zikrTime = 0;
 
   @override
@@ -52,7 +52,7 @@ class _ZikrDetailsScreenState extends State<ZikrDetailsScreen> {
                       ),
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(12),
-                        color: Colors.black.withOpacity(0.8),
+                        color: Colors.white.withOpacity(0.8),
                       ),
                       padding: const EdgeInsets.all(24.0),
                       child: SingleChildScrollView(
@@ -65,7 +65,7 @@ class _ZikrDetailsScreenState extends State<ZikrDetailsScreen> {
                               textAlign: TextAlign.center,
                               style: const TextStyle(
                                 fontSize: 14,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
                             const SizedBox(height: 20),
@@ -74,7 +74,7 @@ class _ZikrDetailsScreenState extends State<ZikrDetailsScreen> {
                               textAlign: TextAlign.center,
                               style: const TextStyle(
                                 fontSize: 14,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
                           ],
@@ -179,13 +179,13 @@ class _ZikrDetailsScreenState extends State<ZikrDetailsScreen> {
                       height: 150,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(12),
-                        color: Colors.black.withOpacity(0.8),
+                        color: Colors.white.withOpacity(0.8),
                       ),
                       child: Center(
                         child: Text(
                           zikrTime.toString(),
-                          style: TextStyle(
-                            color: Colors.grey.shade100,
+                          style: const TextStyle(
+                            color: Colors.black,
                             fontSize: 40,
                           ),
                         ),
