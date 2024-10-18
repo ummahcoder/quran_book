@@ -1,46 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:quran_book/core/local/local_controller.dart';
-import 'package:quran_book/core/route_service/go_router.dart';
-import 'package:quran_book/core/services/inherited_local_notifer.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
-import 'core/local/app_local.dart';
+import 'package:quran_book/feature/my_app.dart';
 
-void main() {
-  runApp(const ProviderScope(child: MyApp()));
-}
+import 'package:sentry_flutter/sentry_flutter.dart';
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return InheritedLocalNotifier(
-      localController: localeController,
-      child: Builder(builder: (context) {
-        return MaterialApp.router(
-          locale: InheritedLocalNotifier.maybeOf(context)?.appLocale ??
-              const Locale('ru', 'RU'),
-          supportedLocales: const [
-            Locale("uz", "UZ"),
-            Locale("en", "US"),
-            Locale("ru", "RU"),
-          ],
-          localizationsDelegates: const [
-            AppLocalization.delegate,
-            GlobalMaterialLocalizations.delegate,
-            GlobalCupertinoLocalizations.delegate,
-            GlobalWidgetsLocalizations.delegate,
-          ],
-          routerConfig: AppGouter.routeConfig,
-          debugShowCheckedModeBanner: false,
-          theme: ThemeData(
-            visualDensity: VisualDensity.adaptivePlatformDensity,
-            textTheme: GoogleFonts.poppinsTextTheme(),
-          ),
-        );
-      }),
-    );
-  }
+Future<void> main() async {
+  await SentryFlutter.init(
+    (options) {
+      options.dsn =
+          'https://1a2131fd4d6582f88a72bee2004965cd@o4508097865318400.ingest.us.sentry.io/4508143617179648';
+      options.tracesSampleRate = 1.0;
+      options.profilesSampleRate = 1.0;
+    },
+    appRunner: () => runApp(const MyApp()),
+  );
 }
