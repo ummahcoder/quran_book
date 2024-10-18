@@ -4,6 +4,7 @@ import 'package:quran_book/presentation/pages/my_app.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
 
 Future<void> main() async {
+  
   await SentryFlutter.init(
     (options) {
       options.dsn =
