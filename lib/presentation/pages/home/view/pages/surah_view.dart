@@ -15,6 +15,7 @@ class SurahView extends StatelessWidget {
     int verseCount = getVerseCount(surahNumber);
 
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.white,
         surfaceTintColor: Colors.white,
@@ -167,9 +168,8 @@ class SurahView extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 12),
                         child: SizedBox(
-                          child: RichText(
-                            textAlign: TextAlign.justify,
-                            text: TextSpan(
+                          child: SelectableText.rich(
+                            TextSpan(
                               text: getVerseTranslation(
                                 surahNumber,
                                 ayahNumber,
@@ -181,6 +181,7 @@ class SurahView extends StatelessWidget {
                                 fontFamily: GoogleFonts.amiri().fontFamily,
                               ),
                             ),
+                            textAlign: TextAlign.justify,
                           ),
                         ),
                       ),
