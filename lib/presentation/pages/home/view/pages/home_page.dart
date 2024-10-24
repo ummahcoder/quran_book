@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 import 'package:quran/quran.dart';
 import 'package:quran/quran_text.dart';
 import 'package:quran_book/core/style/images/images.dart';
+import 'package:quran_book/presentation/routes/routes.dart';
 import 'package:quran_book/presentation/styles/colors.dart';
 import 'package:quran_book/presentation/pages/home/view/pages/surah_view.dart';
 
@@ -45,7 +46,7 @@ class _HomePageState extends State<HomePage>
                             Scaffold.of(context).openDrawer();
                           },
                           icon: Image.asset(
-                            AppImages.appbarMenu,
+                            AppImages.create.appbarMenu,
                             scale: 3,
                           ));
                     },
@@ -67,7 +68,7 @@ class _HomePageState extends State<HomePage>
               Padding(
                 padding: const EdgeInsets.only(right: 16.0),
                 child: Image.asset(
-                  AppImages.appBarSearch,
+                  AppImages.create.appBarSearch,
                   width: 24,
                   height: 24,
                 ),
@@ -96,7 +97,7 @@ class _HomePageState extends State<HomePage>
                       height: 20,
                     ),
                     Image.asset(
-                      AppImages.linearContainer,
+                      AppImages.create.linearContainer,
                       width: MediaQuery.of(context).size.width - 48,
                       fit: BoxFit.cover,
                     ),
@@ -114,7 +115,7 @@ class _HomePageState extends State<HomePage>
                       ],
                     ),
                     SizedBox(
-                      height: 550,
+                      // height: 550,
                       child: ListView.builder(
                         shrinkWrap: true,
                         scrollDirection: Axis.vertical,
@@ -216,23 +217,24 @@ class _HomePageState extends State<HomePage>
             items: [
               BottomNavigationBarItem(
                   icon: Image.asset(
-                    AppImages.tajweed,
+                    AppImages.create.tajweed,
                     scale: 4,
                   ),
                   label: ""),
               BottomNavigationBarItem(
                   icon: Image.asset(
-                    AppImages.light,
+                    AppImages.create.light,
                     scale: 4,
                   ),
                   label: ""),
               BottomNavigationBarItem(
                   icon: GestureDetector(
                     onTap: () {
-                      context.goNamed("showSalahTime");
+                      Navigator.push(
+                          context, AppRoutes.getSalahTimesPage(context));
                     },
                     child: Image.asset(
-                      AppImages.prayer,
+                      AppImages.create.prayer,
                       scale: 4,
                     ),
                   ),
@@ -243,7 +245,7 @@ class _HomePageState extends State<HomePage>
                       context.goNamed("zikrPage");
                     },
                     child: Image.asset(
-                      AppImages.dua,
+                      AppImages.create.dua,
                       scale: 4,
                     ),
                   ),

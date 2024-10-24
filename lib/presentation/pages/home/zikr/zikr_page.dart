@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:quran_book/presentation/pages/home/zikr/barcha_zikrlar.dart';
 import 'package:quran_book/presentation/pages/home/zikr/tongi_zikrlar.dart';
 import '../../../styles/colors.dart';

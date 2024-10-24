@@ -4,6 +4,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
 import 'package:quran_book/core/style/images/images.dart';
 import 'package:quran_book/infrastructures/apis/send_sms.dart';
@@ -13,14 +14,14 @@ import 'package:quran_book/domain/models/auth/sms_model.dart';
 import '../../../../../infrastructures/services/words.dart';
 import '../widgets/textfields_w.dart';
 
-class SignUp extends StatefulWidget {
-  const SignUp({super.key});
+class SignUpPage extends StatefulWidget {
+  const SignUpPage({super.key});
 
   @override
-  State<SignUp> createState() => _SignUpState();
+  State<SignUpPage> createState() => _SignUpPageState();
 }
 
-class _SignUpState extends State<SignUp> {
+class _SignUpPageState extends State<SignUpPage> {
   bool _checkbox = false;
   TextEditingController phoneNumber = TextEditingController();
 
@@ -57,22 +58,18 @@ class _SignUpState extends State<SignUp> {
                       fontWeight: FontWeight.bold,
                       color: AppColors.c_240F4F),
                 ),
-                const SizedBox(
-                  height: 14,
-                ),
+                14.h.verticalSpace,
                 Text(
                   Words.detail.tr(context),
                   style: TextStyle(
-                      fontSize: 16,
+                      fontSize: 16.sp,
                       fontWeight: FontWeight.bold,
                       color: AppColors.c_8789a3),
                 ),
-                const SizedBox(
-                  height: 20,
-                ),
+                20.h.verticalSpace,
                 SizedBox(
                   width: double.infinity,
-                  height: 52,
+                  height: 52.h,
                   child: OutlinedButton(
                       onPressed: () {},
                       style: OutlinedButton.styleFrom(
@@ -85,12 +82,10 @@ class _SignUpState extends State<SignUp> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Image.asset(
-                            AppImages.googleIcon,
+                            AppImages.create.googleIcon,
                             scale: 3,
                           ),
-                          const SizedBox(
-                            width: 10,
-                          ),
+                          10.w.horizontalSpace,
                           Text(
                             Words.google.tr(context),
                             style: TextStyle(
@@ -100,29 +95,21 @@ class _SignUpState extends State<SignUp> {
                         ],
                       )),
                 ),
-                const SizedBox(
-                  height: 20,
-                ),
+                20.h.verticalSpace,
                 Text(
                   Words.name.tr(context),
                   style: TextStyle(color: AppColors.c_240F4F, fontSize: 16),
                 ),
-                const SizedBox(
-                  height: 12,
-                ),
+                12.h.verticalSpace,
                 TextFieldWidget(
                   name: Words.enter.tr(context),
                 ),
-                const SizedBox(
-                  height: 22,
-                ),
+                22.h.verticalSpace,
                 Text(
                   "Phone number",
                   style: TextStyle(color: AppColors.c_240F4F, fontSize: 16),
                 ),
-                const SizedBox(
-                  height: 12,
-                ),
+                12.h.verticalSpace,
                 TextFormField(
                   keyboardType: TextInputType.number,
                   inputFormatters: [
@@ -149,22 +136,16 @@ class _SignUpState extends State<SignUp> {
                         borderRadius: BorderRadius.all(Radius.circular(18))),
                   ),
                 ),
-                const SizedBox(
-                  height: 22,
-                ),
+                22.h.verticalSpace,
                 Text(
                   Words.password.tr(context),
                   style: TextStyle(color: AppColors.c_240F4F, fontSize: 16),
                 ),
-                const SizedBox(
-                  height: 12,
-                ),
+                12.h.verticalSpace,
                 TextFieldWidget(
                   name: Words.pass.tr(context),
                 ),
-                const SizedBox(
-                  height: 22,
-                ),
+                22.h.verticalSpace,
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -185,9 +166,7 @@ class _SignUpState extends State<SignUp> {
                     ),
                   ],
                 ),
-                const SizedBox(
-                  height: 22,
-                ),
+                22.h.verticalSpace,
                 ClipRRect(
                   borderRadius: BorderRadius.circular(7),
                   child: CheckboxListTile(
@@ -201,9 +180,7 @@ class _SignUpState extends State<SignUp> {
                     },
                   ),
                 ),
-                const SizedBox(
-                  height: 22,
-                ),
+                22.h.verticalSpace,
                 SizedBox(
                   width: double.infinity,
                   height: 52,
@@ -231,9 +208,7 @@ class _SignUpState extends State<SignUp> {
                             const TextStyle(color: Colors.white, fontSize: 16),
                       )),
                 ),
-                const SizedBox(
-                  height: 20,
-                ),
+                20.h.verticalSpace,
                 Center(
                   child: Text(
                     Words.have.tr(context),
@@ -243,9 +218,7 @@ class _SignUpState extends State<SignUp> {
                     ),
                   ),
                 ),
-                const SizedBox(
-                  height: 20,
-                ),
+                20.h.verticalSpace,
                 SizedBox(
                   width: double.infinity,
                   height: 52,

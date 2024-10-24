@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
+import 'package:quran_book/presentation/routes/routes.dart';
 import 'package:quran_book/presentation/styles/colors.dart';
 
 import '../../../../../infrastructures/services/words.dart';
@@ -37,7 +39,7 @@ class _LoginPageState extends State<LoginPage> {
       body: ListView(
         children: [
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 60),
+            padding: EdgeInsets.symmetric(horizontal: 24.w, vertical: 60.h),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -45,15 +47,9 @@ class _LoginPageState extends State<LoginPage> {
                 Text(
                   Words.loginPage.tr(context),
                   style: TextStyle(
-                      fontSize: 32,
+                      fontSize: 32.sp,
                       fontWeight: FontWeight.bold,
                       color: AppColors.c_240F4F),
-                ),
-                const SizedBox(
-                  height: 12,
-                ),
-                const SizedBox(
-                  height: 22,
                 ),
                 Text(
                   Words.email.tr(context),
@@ -98,7 +94,8 @@ class _LoginPageState extends State<LoginPage> {
                   height: 52,
                   child: OutlinedButton(
                       onPressed: () {
-                        context.go("/homePage");
+                        Navigator.push(
+                            context, AppRoutes.getLoginPage(context: context));
                       },
                       style: OutlinedButton.styleFrom(
                         side: BorderSide.none,
@@ -132,7 +129,8 @@ class _LoginPageState extends State<LoginPage> {
                   height: 52,
                   child: OutlinedButton(
                       onPressed: () {
-                        context.go("/signUp");
+                        Navigator.push(
+                            context, AppRoutes.getSignUpPage(context: context));
                       },
                       style: OutlinedButton.styleFrom(
                         side: BorderSide(width: 1, color: AppColors.c_672cbc),

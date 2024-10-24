@@ -8,14 +8,14 @@ import 'package:quran_book/presentation/styles/colors.dart';
 import '../../../../../infrastructures/services/words.dart';
 import '../widgets/textfields_w.dart';
 
-class VerifyCode extends StatefulWidget {
-  const VerifyCode({super.key});
+class VerifyCodePage extends StatefulWidget {
+  const VerifyCodePage({super.key});
 
   @override
-  State<VerifyCode> createState() => _VerifyCodeState();
+  State<VerifyCodePage> createState() => _VerifyCodePageState();
 }
 
-class _VerifyCodeState extends State<VerifyCode> {
+class _VerifyCodePageState extends State<VerifyCodePage> {
   TextEditingController getPin = TextEditingController();
   @override
   Widget build(BuildContext context) {

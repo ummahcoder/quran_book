@@ -36,6 +36,8 @@ dependencies:
   easy_localization: ^3.0.7
   bloc: ^8.1.4
   objectbox: ^4.0.3
+  flutter_svg: ^2.0.10+1
+  dartz: ^0.10.1
 
 
 dev_dependencies:

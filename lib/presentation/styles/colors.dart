@@ -6,4 +6,5 @@ class AppColors {
   static Color c_9b091 = const Color(0xFFF9B091);
   static Color c_240F4F = const Color(0xFF240F4F);
   static Color c_863ED5 = const Color(0xFF863ED5);
+  static Color bcgColor = Colors.white;
 }
